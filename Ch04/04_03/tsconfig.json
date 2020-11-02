@@ -3,6 +3,7 @@
         "target": "es5",
         "outDir": "dist",
         "allowJs": true,
-        "checkJs": true
+        "checkJs": true,
+        "lib": ["ES2015.Promise", "WebWorker", "DOM"]
     }
 }
